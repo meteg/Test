@@ -1,0 +1,4 @@
+paho-mqtt
+pyModbusTCP
+yaml8
+schedule

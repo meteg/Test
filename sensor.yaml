@@ -1,0 +1,105 @@
+sensors:
+  - name: Aquarium_A001_Active_Kwhr
+    unit_id: 1
+    address: 50850
+    unique_id: Aquarium_A001_Active_Kwhr
+    registers: 2
+    data_type: uint32
+
+  - name: Aquarium_A001_ReActive_Kwhr
+    unit_id: 1
+    address: 50866
+    unique_id: Aquarium_A001_ReActive_Kwhr
+    registers: 2
+    data_type: uint32
+
+  - name: Aquarium_A001_Temp
+    unit_id: 1
+    address: 51457
+    unique_id: Aquarium_A001_Temp
+    registers: 1
+    data_type: uint16
+
+  - name: Aquarium_A002_Active_Kwhr
+    unit_id: 2
+    address: 50850
+    unique_id: Aquarium_A002_Active_Kwhr
+    registers: 2
+    data_type: uint32
+
+  - name: Aquarium_A002_ReActive_Kwhr
+    unit_id: 2
+    address: 50866
+    unique_id: Aquarium_A002_ReActive_Kwhr
+    registers: 2
+    data_type: uint32
+
+  - name: Aquarium_A002_Temp
+    unit_id: 2
+    address: 51457
+    unique_id: Aquarium_A002_Temp
+    registers: 1
+    data_type: uint16
+
+  - name: Aquarium_A003_Active_Kwhr
+    unit_id: 3
+    address: 50850
+    unique_id: Aquarium_A003_Active_Kwhr
+    registers: 2
+    data_type: uint32
+
+  - name: Aquarium_A003_ReActive_Kwhr
+    unit_id: 3
+    address: 50866
+    unique_id: Aquarium_A003_ReActive_Kwhr
+    registers: 2
+    data_type: uint32
+
+  - name: Aquarium_A003_Temp
+    unit_id: 3
+    address: 51457
+    unique_id: Aquarium_A003_Temp
+    registers: 1
+    data_type: uint16
+
+  - name: Aquarium_A004_Active_Kwhr
+    unit_id: 4
+    address: 50850
+    unique_id: Aquarium_A004_Active_Kwhr
+    registers: 2
+    data_type: uint32
+
+  - name: Aquarium_A004_ReActive_Kwhr
+    unit_id: 4
+    address: 50866
+    unique_id: Aquarium_A004_ReActive_Kwhr
+    registers: 2
+    data_type: uint32
+
+  - name: Aquarium_A004_Temp
+    unit_id: 4
+    address: 51457
+    unique_id: Aquarium_A004_Temp
+    registers: 1
+    data_type: uint16
+
+  - name: Aquarium_A005_Active_Kwhr
+    unit_id: 5
+    address: 50850
+    unique_id: Aquarium_A005_Active_Kwhr
+    registers: 2
+    data_type: uint32
+
+  - name: Aquarium_A005_ReActive_Kwhr
+    unit_id: 5
+    address: 50866
+    unique_id: Aquarium_A005_ReActive_Kwhr
+    registers: 2
+    data_type: uint32
+
+  - name: Aquarium_A005_Temp
+    unit_id: 5
+    address: 51457
+    unique_id: Aquarium_A005_Temp
+    registers: 1
+    data_type: uint16

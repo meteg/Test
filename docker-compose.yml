@@ -1,0 +1,18 @@
+services:
+  akvaryum:
+    build: .
+    container_name: akvaryum
+    volumes:
+      - .:/app
+    restart: always
+    environment:
+      - SENSOR_CONFIG_PATH=sensor.yaml
+      - MQTT_BROKER=mqtt.ndx.com.tr
+      - MQTT_PORT=1883
+      - MQTT_USERNAME=ndx
+      - MQTT_PASSWORD=ndx
+      - MODBUS_HOST=172.16.70.1
+      - MODBUS_PORT=5050
+    networks:
+      - akvaryum-net
+
